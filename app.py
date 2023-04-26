@@ -42,16 +42,16 @@ def main():
     )
 
     # Add input features
-    al = st.slider("Aluminium", min_value=0.0, max_value=50.000, value=9.08)
-    ar= st.slider("Arsenic", min_value=0.0, max_value=10.000, value=0.04)
-    ba = st.slider("Barium", min_value=0.0, max_value=10.000, value=2.85)
-    cd = st.slider("Cadmium", min_value=0.0, max_value=10.0000, value=0.007)
+    al = st.slider("Aluminium", min_value=0.0, max_value=10.000, value=1.65)
+    ar= st.slider("Arsenic", min_value=0.0, max_value=2.0000, value=0.04)
+    ba = st.slider("Barium", min_value=0.0, max_value=5.0000, value=2.85)
+    cd = st.slider("Cadmium", min_value=0.0, max_value=0.5000, value=0.007)
     cl= st.slider("Chloramine", min_value=0.0, max_value=10.000, value=0.35)
-    cr = st.slider("Chromium", min_value=0.0, max_value=10.000, value=.83)
-    vi = st.slider("Viruses", min_value=0.0, max_value=10.0, value=0.1)
-    ni= st.slider("Nitrates", min_value=0.0, max_value=50.000, value=16.08)
-    pe = st.slider("Perchlorate", min_value=0.0, max_value=100.00, value=37.75)
-    ag = st.slider("Silver", min_value=0.0, max_value=10.000, value=0.34)
+    cr = st.slider("Chromium", min_value=0.0, max_value=1.0000, value=.83)
+    vi = st.slider("Viruses", min_value=0.00, max_value=1.000, value=0)
+    ni= st.slider("Nitrates", min_value=0.0, max_value=20.000, value=16.08)
+    pe = st.slider("Perchlorate", min_value=0.0, max_value=70.000, value=37.75)
+    ag = st.slider("Silver", min_value=0.0, max_value=1.000, value=0.34)
    
 
     # Predict the water Quality
