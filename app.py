@@ -57,7 +57,7 @@ def main():
     # Predict the water Quality
     if st.button("PREDICT"):
         water_pred, label = predict_aqi(al, ar, ba, cd, cl, cr,vi, ni, pe, ag)
-        st.success(f"The predicted water quality is from {round(water_pred)} class. The Water quality is {label}.")
+        st.success(f" The Water quality is {label}.")
 
     
     
