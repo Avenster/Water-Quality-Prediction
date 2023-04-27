@@ -14,9 +14,9 @@ def predict_aqi(al, ar, ba, cd, cl, cr,
        vi, ni, pe, ag]])
     water_pred = rf.predict(input_data)[0]
     if water_pred == 1:
-        label = "Good water"
+        label = "Good"
     else:
-        label = "Bad water"
+        label = "Bad"
 
     return water_pred, label
   
