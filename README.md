@@ -14,9 +14,11 @@ Results
 Usage
 Contributing
 License
-Introduction
+```
+### Introduction
+
 Clean water is essential for human health, and predicting water quality accurately can aid in making informed decisions. Our goal is to create a reliable model that can assess water samples and classify them as potable or non-potable.
- ```
+
 ### Data Preprocessing
 Before diving into model building, we performed essential data preprocessing steps:
 Handling Missing Values: We imputed missing values using appropriate techniques.
