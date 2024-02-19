@@ -1,11 +1,11 @@
 
 ### Water Quality Prediction using Machine Learning
-!Water Quality
+## Water Quality
 
 Welcome to the Water Quality Prediction project! In this repository, we’ve built a robust machine learning model to predict whether a water sample is potable or not. Our model utilizes features such as pH, turbidity, and sulphate content to make accurate predictions. Let’s dive into the details!
 
-``` > Table of Contents
-Introduction
+ ### Table of Contents
+``` Introduction
 Data Preprocessing
 Feature Engineering
 Model Building
